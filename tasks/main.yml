@@ -1,2 +1,5 @@
 ---
-# tasks file for linux_icmp_ping
+- name: ping host
+  shell: ping -c 1 "{{ item }}"
+  with_items: "{{ hosts }}"
+  changed_when: false # noqa 305

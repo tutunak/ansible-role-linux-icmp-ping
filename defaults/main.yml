@@ -1,2 +1,3 @@
 ---
-# defaults file for linux_icmp_ping
+hosts:
+  - ya.ru
