@@ -6,7 +6,7 @@ Simple icmp ping to particular host
 Requirements
 ------------
 
-Installed ping tool
+Installed ping
 
 Role Variables
 --------------
@@ -16,7 +16,7 @@ hosts - list hosts for ping
 Dependencies
 ------------
 
-None
+ping
 
 Example Playbook
 ----------------
