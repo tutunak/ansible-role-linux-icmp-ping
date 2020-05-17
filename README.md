@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/tutunak/ansible-role-linux-icmp-ping.svg?branch=master)](https://travis-ci.org/tutunak/ansible-role-linux-icmp-ping)
+
 icmp-ping
 =========
 
