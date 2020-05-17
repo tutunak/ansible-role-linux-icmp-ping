@@ -1,0 +1,21 @@
+---
+language: python
+services: docker
+
+env:
+  matrix:
+    - MOLECULE_DISTRO: centos7
+
+install:
+  # Install test dependencies.
+  - pip install molecule yamllint ansible-lint docker
+
+before_script:
+  # Use actual Ansible Galaxy role name for the project directory.
+  - cd ../
+  - mv ansible-role-linux-icmp-ping linux_icmp_ping
+  - cd linux_icmp_ping
+
+script:
+  # Run tests.
+  - molecule test
