@@ -35,4 +35,5 @@ License
 Author Information
 ------------------
 
-Dmitriy Kotov tutunak.com
+[Dmitriy Kotov](http://www.tutunak.com)
+
